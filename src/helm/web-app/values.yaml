@@ -1,0 +1,4 @@
+image:
+  repository: registry.gitlab.com/chernykhal/web-app
+  pullPolicy: IfNotPresent
+  tag: ""
