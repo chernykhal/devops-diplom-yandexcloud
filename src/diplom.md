@@ -1515,7 +1515,8 @@ deploy:
         selector:
           app: $K8S_DEPLOYMENT_NAME
         ports:
-          - protocol: TCP
+          - name: http
+            protocol: TCP
             port: 80
             targetPort: 80
             nodePort: 30000
