@@ -1,0 +1,4 @@
+/src/terraform/backend/.terraform/
+/src/terraform/catalog/.terraform/
+/src/terraform/catalog/terraform.tfstate.d/
+/src/terraform/config/.terraform/
